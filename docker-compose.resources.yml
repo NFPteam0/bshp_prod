@@ -1,0 +1,10 @@
+services:
+  app:
+    mem_limit: 4g
+    memswap_limit: 7g
+    cpus: "3.5"
+
+  db:
+    mem_limit: 4g
+    memswap_limit: 5g
+    cpus: "2.5"
