@@ -10,7 +10,8 @@ services:
       - TEST_MODE=true
       - DB_URL=mongodb://db:27017
       - DATASET_BATCH_LENGTH=200000
-      - QUANTIZE=true        
+      - QUANTIZE=true       
+      - USE_DETAILED_LOG=false
     build:
         context: .
         dockerfile: bshp_ml/Dockerfile.prod  
